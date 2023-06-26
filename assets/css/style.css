@@ -889,7 +889,8 @@ footer {
 
   footer{
     margin-bottom: 15px;
-    font-size: 14px;
+    margin-top: 15px;
+    font-size: 10px;
   }
 
 }
@@ -985,6 +986,12 @@ footer {
 
   .chair-img{
     height:250px;
+  }
+
+  /* footer */
+
+  footer{
+    font-size: 12px;
   }
     
 }
