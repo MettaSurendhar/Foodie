@@ -329,7 +329,7 @@ picture{
 }
 
 .hero-img {
-  width: 50%;
+  width: 70%;
 }
 
 .delivered-meals {
@@ -473,6 +473,11 @@ picture{
 .btn:hover,
 .btn:active {
   box-shadow: 0 0 8px 0 var(--light-gray-70);
+  background-color: var(--bittersweet-shimmer);
+}
+
+.btn:active{
+  color: var(--light-yellow-2);
 }
 
 /**************************/
@@ -710,7 +715,11 @@ textarea.form-input {
   margin-bottom: 0.8rem;
  }
 
- .delivered-meals{
+  .hero-img {
+  width: 80%;
+ }
+
+  .delivered-meals{
   gap: 4px;;
   margin-top: 0.8rem;
  }
@@ -727,13 +736,13 @@ textarea.form-input {
 }
 
   .delivered-text {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: var(--fw-500);
   }
 
   .delivered-text span {
   font-weight: var(--fw-600);
-  font-size: 18px;
+  font-size: 16px;
   }
 
   /* CART SECTION */
@@ -802,11 +811,11 @@ textarea.form-input {
   }
 
   .chair-price {
-  font-size: var(--fs-4);
+  font-size: var(--fs-6);
   }
 
   .btn--small {
-  font-size: var(--fs-6);
+  font-size: 12px;
   padding: 4px 4px;
   }
 
