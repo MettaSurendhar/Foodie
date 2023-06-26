@@ -598,6 +598,17 @@ textarea.form-input {
 
 .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
 
+/**************************/
+/* FOOTER SECTION */
+/**************************/
+
+footer {
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 18px;
+  color: #555 ;
+  font-weight: 500;
+}
 
 /**************************/
 /* RESPONSIVE SECTION */
@@ -635,9 +646,9 @@ textarea.form-input {
   }
 
   main {
-    margin:18px 14px;
+    margin:0px 14px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     flex-direction: column;
     gap:0;
   }
@@ -874,6 +885,13 @@ textarea.form-input {
   visibility: hidden;
   }
 
+   /* footer */
+
+  footer{
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+
 }
 
 /*------------------------*/
@@ -968,9 +986,7 @@ textarea.form-input {
   .chair-img{
     height:250px;
   }
-
-  
-  
+    
 }
 
 /*------------------------*/
