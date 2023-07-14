@@ -329,7 +329,8 @@ picture{
 }
 
 .hero-img {
-  width: 70%;
+  width: 50%;
+  border-radius:300px;
 }
 
 .delivered-meals {
@@ -346,9 +347,10 @@ picture{
 .delivered-imgs img {
   height: 3.8rem;
   width: 3.8rem;
-  border-radius: 50%;
+  border-radius: 40%;
   margin-right: -1.6rem;
-  border: 3px solid #fdf2e9;
+  border: 3px solid #f9ff00;
+
 }
 
 .delivered-imgs img:last-child {
